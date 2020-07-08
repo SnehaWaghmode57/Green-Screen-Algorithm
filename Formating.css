@@ -1,0 +1,67 @@
+h2{
+    color: blanchedalmond;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center
+{
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    margin: auto;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.6); 
+}
+div { 
+    background: rgb(0, 0, 0); 
+    padding: 10px; 
+    text-align:justify;  
+} 
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/674498.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+canvas{
+    width:  400px;
+    height: 300px;
+    border:  2px solid white;
+    margin-block-start: 30px;
+}
+
+.background
+{
+    margin-left: 6px;
+}
+.buttonfor
+{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: blanchedalmond;
+}
+
+.buttonback
+{
+    margin-top: 10px;
+    margin-left: 160px;
+    color: blanchedalmond;
+}
+h3{
+    color: rgb(0, 138, 233);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.merge
+{
+    margin-top: 30px;
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
