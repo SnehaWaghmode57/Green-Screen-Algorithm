@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green Screen Algorithm</title>
+        <link rel="stylesheet" href="Formating.css">
+        <script src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+        <script type="text/javascript" src="FunctionFile.js"></script>
+    </head>
+    <body>
+        <div class="center">
+        <h2>Green Screen Algorithm</h2>
+        <canvas class="foreground" id="foregroundcanvas"></canvas>
+        <canvas class="background" id="backgroundcanvas"></canvas>
+        <h3>Foreground Image &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+            &nbsp; Background Image</h3>
+        <input type="file" id="foregroundimage" multiple="false" class="buttonfor" accept="image/*" onchange="Foreground()">
+        <input type="file" id="backgroundimage" multiple="false" class="buttonback" accept="image/*" onchange="Background()">
+        <br>
+        <input type="button" id="merge" value="Merge Image" onclick="Merge()" class="merge">
+        </div>
+    </body>
+</html>
